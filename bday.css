@@ -1,0 +1,116 @@
+*{
+    background-color: rgb(5, 5, 34);
+}
+.bkimg{
+    background-image: url(happy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 70%;
+    margin-left: 30vh;
+    margin-right: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.content{
+    padding: 0px 30px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*margin: 40px auto;*/
+}
+.happy{
+    color: coral;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 700;
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral; 
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 5vh;
+    font-size: 2.3vh;
+}
+.emoji{
+    color: yellow;
+}
+.memory{
+    font-size: 4vh;
+    color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.yes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-image: url(yes3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 70%;
+    margin-left: 30vh;
+    margin-right: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.ok{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    color: #fff;
+}
+.button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+.button a:hover{
+    background-color: #1aeeef;
+    color: #222;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.wishes{
+    color:yellow;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.memory1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.hi{
+width: 20%;
+margin-left: 10vh;
+}
+.hi3{
+    padding: 20vh;
+    font-size: larger;
+}
